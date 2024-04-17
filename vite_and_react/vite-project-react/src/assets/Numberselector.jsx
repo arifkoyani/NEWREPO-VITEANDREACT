@@ -4,9 +4,12 @@ let Numberselector = () => {
   let array = [1, 2, 3, 4, 5, 6];
   return (
     <>
-      {array.map((value,i) => {
-        <Box key={i}>{value}</Box>;
-      })}
+
+{array.map((value, i) => (
+        <Box key={i}>{value}</Box>
+      ))}
+
+
     </>
   );
 };
